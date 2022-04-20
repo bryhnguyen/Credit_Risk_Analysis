@@ -45,13 +45,13 @@ We can see that:
 
 
 ### Combination (Over and Under) Sampling using SMOTEENN
-![image](https://user-images.githubusercontent.com/95376544/164176510-bb17dc16-002c-4549-9793-0582db6880fb.png)
+![image](https://user-images.githubusercontent.com/95376544/164178604-fe18750f-5e77-4591-b0f9-f7d297973e1a.png)
 ![image](https://user-images.githubusercontent.com/95376544/164174115-1baac7dd-8e90-4fac-bb86-fa59c3467ff2.png)
 
 SMOTEENN combines the SMOTE and Edited Nearest Neighbors (ENN) algorithms to oversample the minority class with SMOTE and cleans the resulting data with an undersampling strategory by dropping data points if its two nearest neighbors belong to different classes. 
 
 We can see that:
- * For low risk, the precision rate was 100%, the recall was 58% and the F1 score was 73%
+ * For low risk, the precision rate was 100%, the recall was 61% and the F1 score was 76%
  * For high risk, the precision rate was 1%, the recall was 70% and the F1 score was 2%. 
  * The balanced accuracy score was 59%.
 
